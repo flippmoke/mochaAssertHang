@@ -1,0 +1,20 @@
+{
+  "name": "mochaAssertHang",
+  "description": "A way to cause mocha to hang",
+  "url": "http://github.com/flippmoke/mochaAssertHang",
+  "author": "Blake Thompson <flippmoke@gmail.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flippmoke/mochaAssertHang.git"
+  },
+  "contributors": [
+    "Blake Thompson"
+  ],
+  "dependencies": {
+    "mocha": "2.3.3"
+  },
+  "scripts": {
+    "test": "mocha -R spec --timeout 50000"
+  }
+}
